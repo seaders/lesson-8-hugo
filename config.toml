@@ -1,3 +1,57 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Example-AJonP-Template"
+theme = "ajonp-hugo-ionic"
+description = "Purr-fect Solutions"
+metadataformat = "yaml"
+canonifyurls = true
+disqusShortname = "<your_name>"
+# enableGitInfo = "true" # you can change this after git init
+pygmentsUseClasses = "true"
+pygmentsCodeFences = "true"
+
+
+[author]
+  name = "ajonp"
+  homepage = "https://ajonp.com"
+
+
+[taxonomies]
+  authors = "authors"
+  tag = "tags"
+  category = "categories"
+  languages = "languages"
+  
+[params]
+  toc = "true"
+  RSSLink = "/index.xml"
+  author = "ajonp" 
+  github = "ajonpllc" 
+  twitter = "ajonpcom" 
+  youtube = "<your_name>" #channelname
+  email = "developer@ajonp.com"
+  images = ["https://res.cloudinary.com/ajonp/image/upload/w_500/v1545282098/ajonp-ajonp-com/8-lesson-firestore-functions/ajonp_books.png"]
+  fb_app_id = "<your_name>"
+
+  # Search Only
+#   [params.algolia]
+#     appId = "<your_name>"
+#     apiKey = "your_name"
+#     indexName = "your_name"
+  [params.home]
+    image = "https://res.cloudinary.com/ajonp/image/upload/v1545282098/ajonp-ajonp-com/8-lesson-firestore-functions/ajonp_books.png"
+    title = "Welcome to AJonP"
+    subtitle = "Here you will find lessons and videos to coach you on your programming journey."
+    showGithub = true
+    showTwitter = true
+    showYoutube = true
+
+[[menu.main]]
+    name = "Home"
+    pre = "home"
+    weight = -1
+    url = "/"
+[[menu.main]]
+    name = "Books"
+    pre = "school"
+    weight = 100
+    url = "/books/"
