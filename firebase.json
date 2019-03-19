@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "ajonp-lesson-8-hugo",
+    "target": "seaders-ajonp-lesson-8",
     "public": "public",
     "ignore": [
       "firebase.json",

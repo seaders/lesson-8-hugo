@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "ajonp-hosting-lessons"
+    "default": "seaders-ajonp-lesson-8"
   },
   "targets": {
-    "ajonp-hosting-lessons": {
+    "seaders-ajonp-lesson-8": {
       "hosting": {
-        "ajonp-lesson-8-hugo": [
-          "ajonp-lesson-8-hugo"
+        "seaders-ajonp-lesson-8": [
+          "seaders-ajonp-lesson-8"
         ]
       }
     }
